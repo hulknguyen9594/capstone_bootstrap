@@ -1,0 +1,332 @@
+body,
+html {
+  font-family: "Jost", sans-serif;
+}
+/* nếu k khai báo font-size: trình duyệt mặc định 1rem=16px */
+
+/* header */
+.navInstruction {
+  padding: 15px 0;
+}
+.navInstruction .navbar-brand {
+  color: green;
+  font-size: 34px;
+  font-weight: 600;
+  /* có thể dùng font-weight-bold cho html */
+}
+header .nav-link {
+  position: relative;
+  margin-right: 10px;
+}
+header .nav-link.active {
+  color: green !important;
+  position: relative;
+}
+header .nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 0%;
+  background: green;
+  transition: all 0.3s;
+}
+header .nav-link:hover::before {
+  width: 100%;
+}
+header .nav-link:hover,
+.nav-item a:last-child {
+  color: green;
+}
+/* .navInstruction .nav-link:hover {
+  color: green;
+}
+.navInstruction .nav-item .nav-link::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: green;
+  display: block;
+  transition: all 0.5s;
+}
+.navInstruction .nav-link a::after {
+  width: 100%;
+}
+.navInstruction .nav-item:hover .nav-link {
+  color: green;
+} */
+/* .navInstruction .nav-item.active::after {
+  color: green;
+} */
+.nav-item a:last-child {
+  font-size: 18px;
+  color: #000;
+}
+.nav-brand {
+  line-height: 40px;
+}
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 5px 2px;
+}
+.carousel-indicators [data-bs-target].active {
+  width: 30px;
+  height: 10px;
+}
+
+ul.navbar-nav.search-right {
+  align-items: center;
+  display: inline-grid;
+  grid-template-columns: auto 1fr;
+}
+.mt-lg-0 {
+  margin-top: 0 !important;
+}
+li a.search-search {
+  background: rgb(235, 230, 230);
+  font-size: 16px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50px;
+  padding: 0;
+  text-align: center;
+  display: inline;
+  border: none;
+  color: green;
+}
+.btn search-search i {
+  display: inline-block;
+  font-size: inherit;
+  text-rendering: auto;
+}
+.pop-overlay {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  transition: opacity 0ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 99;
+  background: #000000ba;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: 100%;
+}
+.search-content {
+  position: relative;
+  margin: 0rem auto;
+  padding: 15px;
+  top: 50%;
+  max-width: 600px;
+}
+.search-content form input {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #000;
+  height: 55px;
+  padding: 15px 20px 12px;
+  width: 100%;
+  border: 1px solid #d6d6d6;
+  border-bottom-left-radius: 6px;
+  border-top-left-radius: 6px;
+  border-right: none;
+}
+.search-content form button {
+  font-size: 17px;
+  line-height: 28px;
+  text-align: center;
+  color: #f5f9fc;
+  font-weight: 500;
+  border: none;
+  background: green;
+  padding: 0 25px;
+  border-left: none;
+  border-radius: initial;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.search-content close {
+  position: absolute;
+  right: 20px;
+  top: -50px;
+  transition: all 200ms;
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* sunmoon */
+#myBody {
+  background-color: white;
+}
+#switchButton {
+  background-color: white;
+  border: 1px solid black;
+}
+#switchButton .fa-sun {
+  display: none;
+}
+#switchButton .fa-moon {
+  display: block;
+}
+
+/* Dark Theme*/
+#sunMoon {
+  background-color: white;
+}
+#switchButton {
+  background-color: white;
+  border: 1px solid black;
+}
+#switchButton .fa-sun {
+  display: none;
+}
+#switchButton .fa-moon {
+  display: block;
+}
+
+/* Dark Theme*/
+.dark#sunMoon {
+  background-color: black;
+}
+.dark #switchButton {
+  background-color: black;
+  border: 1px solid white;
+}
+.dark #switchButton .fa-sun {
+  display: block;
+  color: white;
+}
+
+.dark #switchButton .fa-moon {
+  display: none;
+}
+/* banner */
+.carousel-item {
+  background-size: cover;
+}
+.carouselPoochcare .carousel-caption {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 0.5s;
+}
+h5 {
+  font-size: 55px;
+  font-weight: 700;
+}
+.btn__1,
+.btn__2 {
+  border-color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.btn__1 {
+  background-color: white;
+  color: green;
+  font-size: 18px;
+  padding: 15px 40px;
+}
+.btn__1:hover {
+  color: green;
+}
+.btn__2 {
+  border: 2px solid white;
+  color: white;
+  padding: 13px 38px;
+}
+.carousel-item .carousel-caption .btn__2:hover {
+  color: green;
+  background-color: white;
+}
+
+/* about us */
+.aboutUs__content {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 100px 70px;
+  line-height: 30px;
+}
+.aboutUs__content p:first-child {
+  font-size: 20px;
+  font-weight: 300;
+  color: red;
+}
+.aboutUs__content h3 {
+  font-weight: 700;
+  font-size: 40px;
+}
+.aboutUs__content p:last-of-type {
+  color: #999;
+  font-size: 20px;
+  margin: 1rem;
+}
+.aboutUs__content .btn btn-link {
+  font-size: 40px;
+  font-weight: 500;
+}
+.aboutUs__content a,
+.service__content a {
+  text-decoration: none;
+  border-bottom: 2px solid green;
+  border-radius: 0;
+  color: #000;
+  font-size: 17px;
+  font-weight: 600;
+  padding: 0;
+  margin-top: 20px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.aboutUs__content a:hover,
+.service__content a:hover {
+  color: green;
+}
+
+/* service */
+.service {
+  background: #f9f8fd;
+  padding: 60px;
+}
+.service__content .row {
+  margin: 0 55px;
+  margin-top: 30px;
+}
+.col-4 {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  margin-left: 0 30px;
+}
+.col-4 i {
+  padding-left: 20px;
+  font-size: 30px;
+  color: green;
+  padding-top: 10px;
+}
+.card {
+  padding: 40px 25px;
+  border: none;
+}
+.card h5 {
+  font-size: 25px;
+}
+.card p {
+  color: #999;
+  text-align: left;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+}
+.card:hover {
+  background-color: #f3f1fc;
+}
