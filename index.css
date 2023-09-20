@@ -4,10 +4,22 @@ html {
 }
 /* nếu k khai báo font-size: trình duyệt mặc định 1rem=16px */
 
-/* header */
-.navInstruction {
-  padding: 15px 0;
+/* :root {
+  --bg-color: #fff;
 }
+
+[data-theme="dark"] {
+  --bg-color: #161625;
+}
+
+.card {
+  background-color: var(--bg-color);
+} */
+
+/* header */
+/* .navInstruction {
+  padding: 15px 0;
+} */
 .navInstruction .navbar-brand {
   color: green;
   font-size: 34px;
@@ -39,26 +51,7 @@ header .nav-link:hover,
 .nav-item a:last-child {
   color: green;
 }
-/* .navInstruction .nav-link:hover {
-  color: green;
-}
-.navInstruction .nav-item .nav-link::after {
-  content: "";
-  width: 0;
-  height: 2px;
-  background-color: green;
-  display: block;
-  transition: all 0.5s;
-}
-.navInstruction .nav-link a::after {
-  width: 100%;
-}
-.navInstruction .nav-item:hover .nav-link {
-  color: green;
-} */
-/* .navInstruction .nav-item.active::after {
-  color: green;
-} */
+
 .nav-item a:last-child {
   font-size: 18px;
   color: #000;
@@ -179,7 +172,7 @@ li a.search-search {
 }
 
 /* Dark Theme*/
-#sunMoon {
+#myBody {
   background-color: white;
 }
 #switchButton {
@@ -194,7 +187,7 @@ li a.search-search {
 }
 
 /* Dark Theme*/
-.dark#sunMoon {
+.dark#myBody {
   background-color: black;
 }
 .dark #switchButton {
@@ -209,19 +202,49 @@ li a.search-search {
 .dark #switchButton .fa-moon {
   display: none;
 }
-/* banner */
-.carousel-item {
-  background-size: cover;
+.search .darkTheme ul li {
+  display: flex;
+  text-decoration: none;
 }
-.carouselPoochcare .carousel-caption {
+
+/* banner */
+.overlay .carousel-inner img {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.carousel-inner img {
+  object-fit: cover;
+}
+#carouselPoochcare .carousel-caption {
+  max-width: 600px;
+  text-align: left;
+}
+#carouselPoochcare .carousel-caption h5,
+p {
+  z-index: 1;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%); */
   transition: all 0.5s;
 }
-h5 {
+#carouselPoochcare .carousel-caption h5 {
   font-size: 55px;
   font-weight: 700;
+}
+#carouselPoochcare .carousel-caption p {
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-inner .carousel-item:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #0c0c0c;
+  opacity: 0.6;
 }
 .btn__1,
 .btn__2 {
