@@ -219,3 +219,276 @@
     font-size: 17px !important;
   }
 }
+
+.ourplan-7-main {
+  background: #f9f7fe;
+}
+
+.ourplan-7-main h3.heading {
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+}
+
+.ourplan-7-main .ourplan-sec-7 {
+  margin: 0 5% auto;
+  margin-top: 0;
+  width: 90%;
+}
+
+.ourplan-7-main ul.links {
+  min-height: 120px;
+}
+
+.ourplan-7-bottom {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.ourplan-7-top {
+  text-align: center;
+}
+
+.ourplan-7-main h5 {
+  font-size: 15px;
+  line-height: 20px;
+  color: green;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 700;
+  display: inline-block;
+  padding: 8px 20px;
+  background: #fff;
+  border-radius: 10px;
+}
+
+.ourplan-7-main .ourplan-gd-left.active h6,
+.ourplan-7-main .ourplan-gd-left.active h4 {
+  color: #fff;
+}
+
+.ourplan-7-main .ourplan-gd-left.active h4 span {
+  color: #eee;
+}
+
+.ourplan-7-main h6 {
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.ourplan-gd-left {
+   padding: 0;
+   border-radius: 20px;
+}
+
+.ourplan-gd-left.pric-7.active .btn-style {
+  color: #fff;
+  background: green;
+  padding: 12px 35px 12px 35px;
+}
+
+.buy-button .btn-style {
+   color: white;
+   background-color: green;
+   padding: 12px 35px 12px 35px;
+}
+
+.buy-button .btn-style:hover {
+   background-color: darkgreen;
+}
+
+.ourplan-7-main p.para {
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.ourplan-gd-left.pric-7.active p.para {
+  color: #eee;
+}
+
+.ourplan-7-main h4 label {
+  font-size: 25px;
+  vertical-align: text-top;
+}
+
+.ourplan-7-main h4 {
+  font-size: 40px;
+  line-height: 45px;
+  margin: 15px 0 20px;
+  text-align: center;
+  font-weight: 600;
+  color: green;
+}
+
+.ourplan-7-main h4 span {
+  font-size: 16px;
+  line-height: 25px;
+  color: #999;
+  font-weight: 400;
+}
+
+.ourplan-7-main ul.links li {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  align-self: center;
+  padding-top: 6px;
+  list-style: none;
+  margin-bottom: 5px;
+  color: #696d73;
+}
+
+.ourplan-7-main .ourplan-gd-left {
+  background: #ffffff;
+  border-radius: 6px;
+  align-self: center;
+}
+
+.ourplan-gd-left.pric-7.active .ourplan-7-top {
+  padding: 3em 2.5em 0.5em;
+  background: green;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.ourplan-gd-left.pric-7.active .ourplan-7-bottom {
+  padding: 2em 2.5em 3.5em;
+}
+
+.ourplan-7-main .pric-7-1 .ourplan-7 {
+  padding: 3.5em 2.5em;
+  border-right: 0;
+}
+
+.ourplan-7-main .pric-7-2 .ourplan-7 {
+  padding: 3.5em 2.5em;
+  border-left: 0;
+}
+
+.ourplan-7-main .ourplan-gd-left.active {
+  transform: scale(1.03);
+  -webkit-transform: scale(1.03);
+  -moz-transform: scale(1.03);
+  -o-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  z-index: 1;
+  margin: 0;
+  box-shadow: 0 10px 30px 0 rgba(17, 17, 17, 0.09);
+  border-radius: 6px;
+}
+
+.ourplan-7-main .buy-button {
+  margin: 2em;
+}
+
+.ourplan-7-main .copy-right p {
+  color: #ccc;
+  font-size: 17px;
+}
+
+.ourplan-7-main .copy-right p a {
+  color: #fff;
+}
+
+@media (max-width: 1366px) {
+  .ourplan-7-main .ourplan-sec-7 {
+    width: 90%;
+  }
+}
+
+@media (max-width: 991px) {
+  .ourplan-7-main .ourplan-sec-7 {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 800px) {
+  .ourplan-7-main .ourplan-sec-7 {
+    margin: 50px auto 0;
+  }
+
+  .ourplan-7-main .pric-7-1 {
+    border: 1px solid #444;
+  }
+
+  .ourplan-7-main .pric-7-2 {
+    border: 1px solid #444;
+  }
+
+  .ourplan-7-main .ourplan-sec-7 {
+    width: 60%;
+  }
+
+  .ourplan-7-main .ourplan-gd-left.active {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+  }
+}
+
+@media (max-width: 768px) {
+  .ourplan-7-main .ourplan-sec-7 {
+    width: 75%;
+  }
+
+  .ourplan-7-main h3.heading {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .ourplan-7-main p.pric-foot {
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 568px) {
+  .ourplan-7-main .ourplan-7-sec h2 {
+    margin-bottom: 1.3em;
+  }
+
+  .ourplan-7-main .ourplan-sec-7 {
+    grid-gap: 20px;
+    margin: 30px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .ourplan-7-main .ourplan-sec-7 {
+    width: 80%;
+  }
+}
+
+@media (max-width: 415px) {
+  .ourplan-7-main .ourplan-sec-7 {
+    width: 100%;
+  }
+
+  .ourplan-7-main .copy-right p {
+    font-size: 16px;
+  }
+
+  .ourplan-7-main h3.heading {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+@media (max-width: 375px) {
+  .ourplan-7-main h3.heading {
+    font-size: 28px;
+    line-height: 33px;
+  }
+}
