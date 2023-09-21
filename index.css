@@ -134,21 +134,21 @@
 }
 
 @media (max-width: 1080px) {
-  .hny-title {
+  .main-title {
     font-size: 35px !important;
     line-height: 40px;
   }
 }
 
 @media (max-width: 600px) {
-  .hny-title {
+  .main-title {
     font-size: 32px !important;
     line-height: 38px;
   }
 }
 
 @media (max-width: 378px) {
-  .hny-title {
+  .main-title {
     font-size: 27px !important;
     line-height: 32px;
   }
